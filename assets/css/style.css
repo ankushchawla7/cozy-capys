@@ -1,0 +1,409 @@
+@import url("../css/root.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none !important;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+
+.header-bg {
+    background-image: url("../images/png/hero-bg-1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gap-34 {
+    gap: 34px;
+}
+
+.mb-37 {
+    margin-bottom: 37px;
+}
+
+.line-height-126 {
+    line-height: 126.164%;
+}
+
+.line-height-103 {
+    line-height: 103.164%;
+}
+
+.line-height-150 {
+    line-height: 150%;
+}
+
+.py-10 {
+    padding: 10px 0;
+}
+
+.ms-12 {
+    margin-left: -12px;
+}
+
+.butn {
+    padding: 16px 40px;
+    background-color: var(--dark-sky);
+    border: none;
+    border-radius: 44px;
+}
+
+.heading-shadow {
+    text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.18);
+}
+
+.hero-para {
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.grasss {
+    top: 0;
+    left: 0;
+}
+
+.brown-grass {
+    left: 0;
+    bottom: 0;
+}
+
+.cartoon {
+    bottom: 0;
+    left: 3%;
+}
+
+/*  */
+
+.hero-right-tree {
+    right: 0;
+    bottom: -10%;
+}
+
+.hero-left-tree {
+    left: 0;
+    bottom: -8%;
+}
+
+.about {
+    background-image: url('../images/png/about-section-bg.png');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.about-text {
+    text-shadow: 1px 4px 0px #F683C5;
+}
+
+.mxw-707 {
+    max-width: 707px;
+}
+
+.sleeping-cartoon {
+    top: -27%;
+    left: -8%;
+    transform: rotate(-4deg);
+    z-index: -2;
+
+}
+
+.para-about {
+    top: 17%;
+    left: 12%;
+}
+
+.right-cartoon-img {
+    left: 0;
+    top: 0;
+}
+
+.second-left-tree {
+    left: 0;
+    bottom: -17%;
+}
+
+.third-section {
+    background-image: url('../images/png/third-section-bg.png');
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.gif-box {
+    border-radius: 20.821px;
+    border: 13.15px solid #FFF;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #FFF;
+    box-shadow: 15.34152px 15.34152px 4.38329px 0px rgba(0, 0, 0, 0.25);
+}
+
+.impact-heading {
+    text-shadow: 1px 4px 0px #3D53A0;
+}
+
+.third-addon {
+    top: 0;
+    left: 0;
+}
+
+.pt-125 {
+    padding-top: 125px;
+}
+
+.third-rainbow {
+    right: 0%;
+    top: 12%;
+}
+
+.third-section-tree {
+    right: 0;
+    bottom: -12%;
+    z-index: 2;
+}
+
+.mt-n50 {
+    margin-top: -50px;
+}
+
+.forth-section {
+    background-image: url('../images/png/forth-section-bg.png');
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.roadmap-heading {
+    text-shadow: 1px 4px 0px #5BA72B;
+}
+
+.shadow-box {
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.60);
+    background: rgba(255, 255, 255, 0.10);
+
+}
+
+.box1-padding {
+    padding: 20px 69px 20px 20px;
+}
+
+.box2-padding {
+    padding: 20px 38px 20px 20px;
+}
+
+.shadow-box:hover .icon path {
+    opacity: 1;
+}
+
+.shadow-box:hover {
+    background-color: #5BA72B;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
+
+.last-section {
+    background-image: url('../images/png/last-section-bg.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.faq-heading {
+    text-shadow: 2px 6px 0px #FB9100;
+}
+
+.accordion-button {
+    border-radius: 8px !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    font-size: var(--fs-22) !important;
+    font-weight: 700;
+    font-family: 'Balsamiq Sans', cursive;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+    color: black !important;
+    opacity: 0.7 !important;
+}
+
+.accordion-body {
+    font-size: var(--fs-22) !important;
+    font-weight: 700;
+    font-family: 'Balsamiq Sans', cursive;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+    color: black !important;
+    opacity: 0.7 !important;
+    background-color: transparent !important;
+}
+
+
+.accordion-item {
+    border-radius: 8px !important;
+}
+
+.accordion-button::after {
+    content: "";
+    background-image: url('../images/svg/accordion-icon.svg') !important;
+}
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.mt-109 {
+    margin-top: 109px;
+}
+
+.mb-65 {
+    margin-bottom: 65px;
+}
+
+.last-oneaddon {
+    top: -10px;
+    ;
+    left: 0;
+}
+
+.f-line {
+    width: 100%;
+    height: 2px;
+    background-color: #FCBE69;
+}
+
+.op-7 {
+    opacity: 0.7;
+}
+
+.footer-tree {
+    top: -15%;
+    z-index: 1;
+    left: 0;
+}
+
+.footer-left-cozy {
+    bottom: 0;
+    left: 0;
+}
+
+.footer-right-cozy {
+    bottom: 0;
+    right: 0;
+}
+
+.line1,
+.line2,
+.line3 {
+    width: 35px;
+    height: 3px;
+    background-color: black;
+    display: flex;
+    margin-bottom: 7px;
+}
+
+.menu-icon {
+    z-index: 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:992px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 100vh;
+        background-color: rgba(0, 0, 0, 0.8);
+        left: -100%;
+        transition: all 300ms linear;
+        z-index: 3;
+    }
+
+
+    .about-container {
+        width: 100%;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0px 2px 7px white;
+    }
+
+}
+
+@media (min-width:1200px) {}
+
+
+@media (min-width:1200px) {
+    .custom_container {
+        max-width: 1140px !important;
+    }
+
+
+
+}
+
+@media (min-width:319.98px) and (max-width:575.98px) {
+    .ms-12 {
+        margin-left: -4px;
+    }
+
+    .hero-left-tree {
+        width: 25%;
+        min-width: 150px;
+        left: -8%;
+    }
+
+    .hero-right-tree {
+        width: 25%;
+        min-width: 150px;
+        right: -8%;
+    }
+
+    .max-w-200 {
+        max-width: 200px !important;
+    }
+
+
+}
+
+
+@media (min-width:575.98px) and (max-width:767.98px) {
+    .hero-left-tree {
+        width: 25%;
+        min-width: 200px;
+    }
+
+    .hero-right-tree {
+        width: 25%;
+        min-width: 200px;
+        right: 0;
+    }
+
+    .pt-sm-125 {
+        padding-top: 125px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991.98px) {
+    .hero-left-tree {
+        width: 25%;
+    }
+
+    .hero-right-tree {
+        width: 30%;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199.98px) {}
+
+@media (min-width:1200px) and (max-width:1399.98px) {}

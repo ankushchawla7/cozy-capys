@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Cherry+Bomb+One&family=Cherry+Cream+Soda&display=swap');
+
+:root {
+    /* font-size */
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-22: 22px;
+    --fs-28: 28px;
+    --fs-60: 60px;
+    --fs-70: 70px;
+    --fs-80: 80px;
+
+    /* color-name */
+    --dark-orange: #FF9300;
+    --grass: #5BA72B;
+    --light-pink: #EEC4DC;
+    --sea-kelp: #354A55;
+    --grey: #565656;
+    --dark-sky: #4CBAFF;
+    --white-op3: #BFDF89;
+    --black-links: #0D0D0D;
+
+
+
+
+
+}
+
+.dark_orange {
+    color: var(--dark-orange);
+}
+
+.white-op3 {
+    color: var(--white-op3);
+}
+
+.pink_text {
+    color: var(--light-pink);
+}
+
+.black-links {
+    color: var(--black-links);
+}
+
+.grey_text {
+    color: var(--grey);
+}
+
+.sea-kelp_text {
+    color: var(--sea-kelp);
+}
+
+.grass_text {
+    color: var(--grass);
+}
+
+.ff-Balsamiq-sans {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.ff-Cherry-Cream-Soda {
+    font-family: 'Cherry Cream Soda', cursive;
+}
+
+.ff-Cherry-Bomb-One {
+    font-family: 'Cherry Bomb One', cursive !important;
+}
+
+.fs-14 {
+    font-size: var(--fs-14);
+}
+
+.fs-16 {
+    font-size: var(--fs-16);
+}
+
+.fs-18 {
+    font-size: var(--fs-18);
+}
+
+.fs-20 {
+    font-size: var(--fs-20);
+}
+
+.fs-22 {
+    font-size: var(--fs-22);
+}
+
+.fs-28 {
+    font-size: var(--fs-28);
+}
+
+.fs-60 {
+    font-size: var(--fs-60);
+}
+
+.fs-70 {
+    font-size: var(--fs-70);
+}
+
+.fs-80 {
+    font-size: var(--fs-80);
+}
+
+@media (min-width:319.98px) and (max-width:575.98px) {
+    :root {
+        --fs-80: 35px;
+        --fs-18: 14px;
+        --fs-20: 16px;
+        --fs-60: 30px;
+        --fs-70:40px;
+        --fs-28:24px;
+
+    }
+    .shadow-box{
+        padding: 20px !important;
+    }
+    .shadow-box .icon{
+        width: 50% !important;
+    }
+
+    .butn {
+        padding: 14px 25px !important;
+    }
+
+    .right-cartoon-img {
+        bottom: -3% !important;
+    }
+
+
+}
+
+@media (min-width:575.98px) and (max-width:767.98px) {
+    :root {
+        --fs-80: 45px;
+        --fs-18: 16px;
+        --fs-20: 18px;
+
+    }
+
+}
+
+@media (min-width:767.98px) and (max-width:991.98px) {
+    :root {
+        --fs-80: 55px;
+        --fs-18: 16px;
+        --fs-20: 18px;
+
+    }
+
+
+    .grasss {
+        top: 0 !important;
+    }
+}
+
+@media (min-width:991.98px) and (max-width:1199.98px) {
+
+    .grasss {
+        top: 0 !important;
+    }
+}
+
+@media (min-width:1199.98px) and (max-width:1399.98px) {
+
+}
+@media (min-width:1400px) {
+
+}
